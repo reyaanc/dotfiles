@@ -29,3 +29,6 @@ brew install uv
 brew install node
 
 ## === Utilities ===
+# setup git
+git config --global user.name reyaanc
+git config --global user.email 59304120+reyaanc@users.noreply.github.com
