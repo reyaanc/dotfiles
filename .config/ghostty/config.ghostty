@@ -1,0 +1,20 @@
+command = /usr/bin/fish
+shell-integration = fish
+
+font-family = JetBrainsMono Nerd Font
+font-size = 12
+adjust-cell-height = 10%
+
+theme = Catppuccin Mocha
+background-opacity = 0.85
+# background-opacity alone is not enough here: the matugen-generated
+# ~/.config/gtk-4.0/gtk.css forces an opaque background on all GTK4 windows.
+# transparent.css overrides that for Ghostty only. Both lines are required.
+gtk-custom-css = /home/reyaan/.config/ghostty/transparent.css
+
+window-decoration = none
+gtk-single-instance = true
+confirm-close-surface = false
+
+keybind = ctrl+shift+enter=unbind
+keybind = ctrl+shift+o=unbind

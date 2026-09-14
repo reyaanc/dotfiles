@@ -1,0 +1,18 @@
+# Secrets - never commit
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+.env
+.env.*
+*credential*
+*secret*
+.claude/.credentials.json
+
+# Caches / state / build artifacts
+__pycache__/
+node_modules/
+*.log
+*.pyc
+.cache/
+cache/
